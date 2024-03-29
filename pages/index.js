@@ -7,19 +7,19 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid,
+  // SimpleGrid,
   useColorModeValue
 } from '@chakra-ui/react'
 import Image from 'next/image'
 import NextLink from 'next/link'
 import { IoLogoGithub, IoLogoInstagram, IoLogoTwitter } from 'react-icons/io5'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
+// import { GridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+// import thumbYouTube from '../public/images/links/youtube.png'
+// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
 const Home = () => (
   <Layout>
@@ -73,12 +73,8 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          Hi, my name is Fathir. I am an Enthusiast Backend Engineer who enjoys working with technology and learning new things in the IT field. Currently, I'm focusing on learning about several Languages such as JS, PHP, Ruby, and also C++ to improve my skills and experience as a developer. I am always interested in learning and continuing to develop myself so that I can provide the best and most effective solutions for every project I work on.
+          {/* {' '}
           <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
             Inkdrop
           </Link>
@@ -93,7 +89,9 @@ const Home = () => (
             Dev as Life
           </Link>
           &quot; has more than 100k subscribers.
+          */}
         </Paragraph>
+
         <Box align="center" my={4}>
           <Button
             as={NextLink}
@@ -116,35 +114,25 @@ const Home = () => (
           Born in Klaten (Central Java), Indonesia.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
-        </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
-        </BioSection>
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2023 - present</BioYear>
+          SMK N 1 KLATEN
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          I ❤️
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
+          <Link href="" target="_blank">
             Drawing
           </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+          , Playing Piano,{' '}
+          <Link href="" target="_blank">
             Photography
           </Link>
-          , Leica, Machine Learning
+          , Code
         </Paragraph>
       </Section>
 
@@ -187,7 +175,7 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
-
+      {/*
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
@@ -204,24 +192,24 @@ const Home = () => (
             A Markdown note-taking app
           </GridItem>
         </SimpleGrid>
+        */}
 
         <Heading as="h3" variant="section-title">
           Newsletter
         </Heading>
         <p>
-          Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
+          Shoutout to the original creator of this website
         </p>
 
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://www.devas.life/"
+            href="https://github.com/craftzdog"
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="teal"
           >
-            Sign up my newsletter here
+            Original Creator GitHub
           </Button>
         </Box>
       </Section>
