@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Fathir Bima Shabri
           </Heading>
-          <p>Regular Human ( Student / Developer / Reader )</p>
+          <p>Regular Human Being ( Student / Developer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -59,7 +59,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/Fathir.jpg"
               alt="Profile image"
               width="100"
               height="100"
