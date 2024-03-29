@@ -1,23 +1,23 @@
-import { forwardRef } from 'react'
-import Logo from './logo'
-import NextLink from 'next/link'
+import { HamburgerIcon } from '@chakra-ui/icons'
 import {
-  Container,
   Box,
-  Link,
-  Stack,
-  Heading,
+  Container,
   Flex,
+  Heading,
+  IconButton,
+  Link,
   Menu,
+  MenuButton,
   MenuItem,
   MenuList,
-  MenuButton,
-  IconButton,
+  Stack,
   useColorModeValue
 } from '@chakra-ui/react'
-import { HamburgerIcon } from '@chakra-ui/icons'
-import ThemeToggleButton from './theme-toggle-button'
+import NextLink from 'next/link'
+import { forwardRef } from 'react'
 import { IoLogoGithub } from 'react-icons/io5'
+import Logo from './logo'
+import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -86,7 +86,7 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
+          <LinkItem href="https://github.com/FatngatirBilek">GitHub</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/craftzdog/craftzdog-homepage"
@@ -125,8 +125,8 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/posts">
                   Posts
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
+                <MenuItem as={MenuLink} href="https:github.com/FatngatirBilek">
+                  GitHub
                 </MenuItem>
                 <MenuItem
                   as={Link}

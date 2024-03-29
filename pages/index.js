@@ -1,25 +1,25 @@
-import NextLink from 'next/link'
+import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import {
-  Link,
+  Box,
+  Button,
   Container,
   Heading,
-  Box,
-  SimpleGrid,
-  Button,
+  Link,
   List,
   ListItem,
+  SimpleGrid,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph'
+import Image from 'next/image'
+import NextLink from 'next/link'
+import { IoLogoGithub, IoLogoInstagram, IoLogoTwitter } from 'react-icons/io5'
 import { BioSection, BioYear } from '../components/bio'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import Layout from '../components/layouts/article'
+import Paragraph from '../components/paragraph'
+import Section from '../components/section'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import Image from 'next/image'
 
 const Home = () => (
   <Layout>
@@ -38,9 +38,9 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Fathir Bima Shabri
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Regular Human ( Student / Developer / Reader )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -112,8 +112,8 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2007</BioYear>
+          Born in Klaten (Central Java), Indonesia.
         </BioSection>
         <BioSection>
           <BioYear>2010</BioYear>
