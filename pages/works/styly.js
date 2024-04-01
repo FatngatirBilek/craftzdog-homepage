@@ -15,12 +15,10 @@ const Work = () => (
   <Layout title="STYLY">
     <Container>
       <Title>
-        STYLY <Badge>2017</Badge>
+        STYLY <Badge>2024</Badge>
       </Title>
       <P>
-        STYLY Studio is a creative tool for VR, allowing you to build virtual
-        spaces towards extending fashion brand&apos;s expression ability of
-        their concept. I built its web UI and backend.
+        I don&apos;t know what is this but this&apos;s my first post here
       </P>
 
       <List ml={4} my={4}>

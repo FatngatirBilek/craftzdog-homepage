@@ -73,7 +73,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hi, my name is Fathir. I am an Enthusiast Backend Engineer who enjoys working with technology and learning new things in the IT field. Currently, I'm focusing on learning about several Languages such as JS, PHP, Ruby, and also C++ to improve my skills and experience as a developer. I am always interested in learning and continuing to develop myself so that I can provide the best and most effective solutions for every project I work on.
+          Hi, my name is Fathir. I am an Enthusiast Backend Engineer who enjoys working with technology and learning new things in the IT field. Currently, I&apos;m focusing on learning about several Languages such as JS, PHP, Ruby, and also C++ to improve my skills and experience as a developer. I am always interested in learning and continuing to develop myself so that I can provide the best and most effective solutions for every project I work on.
           {/* {' '}
           <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
             Inkdrop
